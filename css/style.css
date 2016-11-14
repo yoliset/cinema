@@ -13,19 +13,32 @@
 margin: 15px;
     
 }
+
+header span {
+    font-size: 13px;
+    margin-left: 26px;
+    position: absolute;
+    top: 40px;
+    color: darkgray;
+}
 .estrenos .row
 {
     background-color: #E6AD1C;
     width: 1215px;
-    margin-left: 5px;
+    margin-left: -150px;
       
+}
+hr {
+    margin-bottom: 20px;
+    margin-top: 25px;
+    color: darkgray;
 }
 
 .cartelera img{
-    width: 280px;
+    width: 230px;
     margin-top:10px;
     height: 250px;
-    margin-left: 22px;
+    margin-left: -70px;
     
 }
 
@@ -34,8 +47,8 @@ margin: 15px;
 
     background: #333 url(../img/banner.jpg)no-repeat;
     background-size:contain;
-width: 1215px;
-    margin-left: 5px;
+    width: 1215px;
+    margin-left: -150px;
     height: 350px;
     
 }
@@ -46,15 +59,15 @@ width: 1215px;
 
 .hero img {
    
-    margin-top: 130px;
-    margin-left: 150px;
-    width: 40px;
+    margin-top: 160px;
+    margin-left: 180px;
+    width: 50px;
     
 }
 .trailer iframe
 {
   width: 1215px;
-   margin-left: 4px;
+   margin-left: -151px;
     
 }
 .movie-info;
@@ -71,7 +84,13 @@ width: 1215px;
 	border-radius: 10%;
     color: #31B404;
      font-size: 12px;
+    margin-right: 13px;
     
+}
+.movie-info h2{
+    color: darkgray;
+    font-size: 12px;
+
 }
 .movie-info button
 {
@@ -102,7 +121,21 @@ width: 1215px;
 	text-transform: uppercase;
 	margin-left:-1px;
 }
-
+.contenido #l
+{
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 10px; 
+	background-color: #E6AD1C;
+	border: 1px solid #E6AD1C; 
+	height: 40px;
+	width: 120px;
+	color: white;
+	font-size: 11px;
+	text-transform: uppercase;
+	margin-left:27px;
+    
+}
 .movie-info #l
 {
 	background-color: #E9D925;
@@ -149,11 +182,12 @@ font-size: 14px;
 {
 	margin-left: 25px;
  
-    margin-top: 49px;
 }
 .ultimo
 { 
-    margin-left:15px;
+    margin-left:-150px;
+    background-color: darkgray;
+    
    
 }
 
@@ -161,6 +195,7 @@ font-size: 14px;
 .ultimo1
 { 
     margin-left:15px;
+    color: black;
    
 }
 .ultimo2
@@ -168,24 +203,53 @@ font-size: 14px;
     margin-left:15px;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: black;
    
+}
+.hero i {
+    color: white;
+    position: relative;
+    bottom: 34px;
+    left: 1px;
+    
 }
 
 .copy { 
-    margin-left: 25px;
+    margin-left: 15px;
     margin-top: 15px;
+    color: black;
    
 }
 .contenido h3
 { 
     font-size: 25px;
+    color: darkgray
    
 }
-.contenido h4
+.contenido i {
+    color: white;
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+}
+.contenido ul
 { 
     text-decoration: none;
+    list-style: none;
    
 }
-h4 {
+.contenido span{
+    color: darkgray;
+    font-size: 12px;
+}
+.contenido a {
+    color: #E6AD1C;
     text-decoration: none;
+
+    
+}
+.contenido{
+    height: 250px;
+    margin-left: -180px
+
 }
