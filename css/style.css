@@ -6,17 +6,186 @@
     font-size: 15px;
 }
 .estrenos img{
-    width: 100%;
+    width: 160px;
+    
+    height: 190px;
+ 
+margin: 15px;
+    
 }
+.estrenos .row
+{
+    background-color: #E6AD1C;
+    width: 1215px;
+    margin-left: 5px;
+      
+}
+
 .cartelera img{
-    width: 100%;
+    width: 280px;
+    margin-top:10px;
+    height: 250px;
+    margin-left: 22px;
+    
 }
+
+
 .hero .banner{
+
     background: #333 url(../img/banner.jpg)no-repeat;
-    background-size: contain;
+    background-size:contain;
+width: 1215px;
+    margin-left: 5px;
+    height: 350px;
+    
+}
+
+
+
+
+
+.hero img {
+   
+    margin-top: 130px;
+    margin-left: 150px;
+    width: 40px;
+    
+}
+.trailer iframe
+{
+  width: 1215px;
+   margin-left: 4px;
     
 }
 .movie-info;
 {
     padding-top: 20px;
+    padding-bottom: 20px;
+ 	text-align: left;
+ 	color: #B4AEAE;
+}
+.movie-info span
+ {
+	border: 2px solid #31B404;
+	padding: 5px;
+	border-radius: 10%;
+    color: #31B404;
+     font-size: 12px;
+    
+}
+.movie-info button
+{
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 10px; 
+	background-color: #E6AD1C;
+	border: 1px solid #E6AD1C; 
+	height: 30px;
+	width: 120px;
+	color: white;
+	font-size: 10px;
+	text-transform: uppercase;
+	margin-left:-1px;
+}
+
+.movie-info input
+{
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 10px; 
+	background-color: #E6AD1C;
+	border: 1px solid #E6AD1C; 
+	height: 30px;
+	width: 120px;
+	color: white;
+	font-size: 10px;
+	text-transform: uppercase;
+	margin-left:-1px;
+}
+
+.movie-info #l
+{
+	background-color: #E9D925;
+ }
+
+.movie-info table
+{
+	margin-top: 10px;
+}
+.movie-info table td
+{padding-left: 34px;
+}
+
+.movie-info table, p ,h1
+{
+	text-align: left;
+    color:#B4AEAE;
+}
+
+.movie-info table, p
+{
+
+font-size: 14px;
+
+}
+.movie-info h1
+{
+	border-bottom: 2px solid #B4AEAE;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+    margin-top: 15px;
+    
+    font-size: 30px;
+}
+
+.contenido h2
+{
+	margin-left: 25px;
+    font-size: 35px;
+    margin-top: 10px;
+   
+}
+.contenido h1
+{
+	margin-left: 25px;
+ 
+    margin-top: 49px;
+}
+.ultimo
+{ 
+    margin-left:15px;
+   
+}
+
+
+.ultimo1
+{ 
+    margin-left:15px;
+   
+}
+.ultimo2
+{ 
+    margin-left:15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.copy { 
+    margin-left: 25px;
+    margin-top: 15px;
+   
+}
+.contenido h3
+{ 
+    font-size: 25px;
+   
+}
+.contenido h4
+{ 
+    text-decoration: none;
+   
+}
+h4 {
+    text-decoration: none;
 }
